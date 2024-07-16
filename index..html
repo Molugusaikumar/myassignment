@@ -1,0 +1,125 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <title>
+        My First Web Page
+    </title>
+    <link rel="stylesheet" href="style.css">
+    
+    <body>
+        
+        <img src="C:\Users\saikumar\myassignment\imges\first.png" align="right" width="300" height="300">
+        <h1 style="color:red" align="center">AWARD WINNING</h1>
+        <h1 style="color: black" align="center">DIGITAL MARKETING ADENCY</h1>
+        <p style=" text-align: justify;"  >Morbi sed lacus nec risus gininus feugiat et fermentum nibh.
+            Pellentesque vitae ante at elit fringilla ac at purus.Morbi sed locus nec risus finibus 
+            feugiat et fermentum 
+        </p>
+        
+        <!-- Button to Open the Popup -->
+        <button id="openPopupBtn">Contact Us</button>
+        
+        <!-- The Popup Form -->
+        <div id="popupForm" class="popup-form">
+            <div class="form-content">
+                <span class="close-btn" id="closePopupBtn">&times;</span>
+                <h2>Talk to us</h2>
+                <form action="https://getform.io/f/anleqrna" method="POST"></form>
+                    
+                    
+                        <div class="padding" >
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            
+                        </div>
+                        <div class="padding">
+                            <label for="exampleInputPassword1" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="padding">
+                            <label for="exampleInputPassword1" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="exampleInputPassword1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">I agree to Fyle's terms and conditions,and provide consent to send me communication</label>
+                        </div>
+                        <button style="background-color: blue; color: white;" class="full-width-button">Contact us</button>
+
+                    
+                </form>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+
+        <p style="color:pink">What we do</p>
+        <h1>SERIVES PROVIDE
+            FOR YOU </h1>
+        <p align="top-right">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitac ante at elit fringilla ac at purus.Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        <img src="C:\Users\saikumar\myassignment\imges\second image.png" alt="image 1"  width="270" height="230" margin="10px">
+        <img src="C:\Users\saikumar\myassignment\imges\third image.png" alt="image 1" width="270" height="230" margin="10px">
+        <img src="C:\Users\saikumar\myassignment\imges\fourth image.png" alt="image 1" width="270" height="230" margin="10px">
+        <div class="box">
+            <p>WEB DEVELOPMENT</p>
+            Morbi sed lacus nec risus finibus feugiat et fermentum nibh.Pellentesque
+            <br>
+            <button class="button" onclick="openYourFyle()">READ MORE</button>
+        </div>
+
+        <script>
+            function openYourFyle() {
+                window.open("https://www.fylehq.com/", "_blank");
+            }
+        </script>
+
+        <p align="center" style=" color:pink">OUR PROJECTS</p>
+        <h1 align="center">WHY WE ARE BEST</h1>
+
+        <div class="container">
+            <div class="box2">
+                <img id="imageBox" class="image" src="C:\Users\saikumar\myassignment\imges\fifth image.jpg" >
+            </div>
+            <div class="sidebar">
+                <button onclick="changeImage('C:/Users/saikumar/myassignment/imges/fifth image.jpg')"><br>Genderless kei -Japan hot <br>Set to lunch on the manufacture's new A330ne aircraft in 2017.Its offering a lots</br</p></button>
+                <button onclick="changeImage('C:/Users/saikumar/myassignment/imges/sixth image.png')"><br>Better Strategy & Quality<br>Set to lunch on the manufactures's new A330ne aircraft in 2017.Its offering a lots</br</br></button>
+                <button onclick="changeImage('C:/Users/saikumar/myassignment/imges/seventh image.png')"><br>Genderless kei -Japan hot<br>Set to lunch on the manufactures's new A330ne aircraft in 2017.Its offering a lots</br</br></button>
+            </div>
+        </div>
+
+        <script>
+        function changeImage(imageSrc) {
+            document.getElementById('imageBox').src = imageSrc;
+        }
+    </script>
+
+    <p style="color:pink" align="center">EXPERT GROWTH</p>
+    <h1 align="center">OUR COMPANY GROWTH</h1>
+
+    <div class="containerr">
+        <div class="boxx"> 
+            <p>&hearts; </p>
+            <h1>199+</h1>
+            <p>Statisfied Customers</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-clock"></i>
+            <h1>1591+</h1>
+            <p>Days Of Operation</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-check"></i>
+            <h1>35%</h1>
+            <p>Complete Project</p>
+        </div>
+        <div class="boxx">
+            <i class="fa-solid fa-trophy"></i>
+            <h1>75+</h1>
+            <p>Win awards</p>
+        </div>
+    </div>
+
+    </body>
+</html>
